@@ -44,3 +44,16 @@ nbdist/
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml
+
+docker/mysql/data/*
+docker/mysql/db/*.sql
+docker/redis/data/*
+docker/nacos/logs/*
+
+docker/ruoyi/auth/jar/*.jar
+docker/ruoyi/gateway/jar/*.jar
+docker/ruoyi/modules/file/jar/*.jar
+docker/ruoyi/modules/gen/jar/*.jar
+docker/ruoyi/modules/job/jar/*.jar
+docker/ruoyi/modules/system/jar/*.jar
+docker/ruoyi/visual/monitor/jar/*.jar
